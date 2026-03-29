@@ -256,6 +256,7 @@ export const session = pgTable(
       .references(() => user.id, { onDelete: "cascade" }),
     impersonatedBy: text(),
     activeOrganizationId: text(),
+    activeTeamId: text(),
   },
   table => [unique("session_token_unique").on(table.token)]
 );

@@ -1,5 +1,5 @@
 {
-  "id": "01633710-e3a8-4cf3-96d7-5c4c9150edbd",
+  "id": "328c7e4d-157c-4d6b-b0b4-f2a1f3571518",
   "prevId": "372ba8dc-511d-480e-b745-28cdc242cea8",
   "version": "7",
   "dialect": "postgresql",
@@ -1355,6 +1355,12 @@
         },
         "activeOrganizationId": {
           "name": "activeOrganizationId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "activeTeamId": {
+          "name": "activeTeamId",
           "type": "text",
           "primaryKey": false,
           "notNull": false
